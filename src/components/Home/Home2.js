@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/brij2.jpg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -20,7 +20,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, html,Css, Javascript,PHP. </b>
+                <b className="purple"> html,Css, bootstrap,Javascript,PHP. </b>
               </i>
               <br />
               <br />
@@ -65,7 +65,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/feed/"
+                  href="https://www.linkedin.com/in/priyanshi-lathiya-b1713a246/"
                   className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn className="linkdin" />
@@ -73,7 +73,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/brij_r_24"
+                  href="https://www.instagram.com/_piyu_1833/"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram className="instaa" />

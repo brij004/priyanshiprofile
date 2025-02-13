@@ -29,7 +29,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="/Brij_Ratanpara-cv.pdf"
+            href="/priyanshi.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -47,7 +47,7 @@ function ResumeNew() {
         }}
       >
         <Document
-          file="/Brij_Ratanpara-cv.pdf" // Your PDF file inside the "public" folder
+          file="/priyanshi.pdf" // Your PDF file inside the "public" folder
           onLoadSuccess={({ numPages }) => setNumPages(numPages)}
           className="flex justify-center"
         >

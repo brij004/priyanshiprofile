@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
-import llogo from '../components/img/first logo.png'
+import llogo from "../components/img/first logo.png";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -55,43 +55,45 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <AiOutlineHome className="home2" /> 
-              <Nav.Link className="Home" as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <AiOutlineHome className="home2" />
+              <Nav.Link
+                className="Home"
+                as={Link}
+                to="/"
+                onClick={() => updateExpanded(false)}
+              >
                 Home
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-            <AiOutlineUser className="about2" />
+              <AiOutlineUser className="about2" />
               <Nav.Link
-              className="about"
+                className="about"
                 as={Link}
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                 About
+                About
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-            <AiOutlineFundProjectionScreen
-              className="project2"
-                />
+              <AiOutlineFundProjectionScreen className="project2" />
               <Nav.Link
-              className="project"
+                className="project"
                 as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-             
                 Projects
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-            <CgFileDocument className="resume2"/>
+              <CgFileDocument className="resume2" />
               <Nav.Link
-              className="resume"
+                className="resume"
                 as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
@@ -102,7 +104,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/brij004/Myprofile"
+                href="https://github.com/priyanshilathiya1718"
                 target="_blank"
                 className="fork-btn-inner"
               >

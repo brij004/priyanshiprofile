@@ -14,29 +14,29 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Brij Ratanpara</h3>
+          <h3>Designed and Developed by Priyanshi Lathiya</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} BR</h3>
+          <h3>Copyright © {year} PL</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/brij004/Myprofile"
+                href="https://github.com/priyanshilathiya1718"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
               </a>
             </li>
-     
+
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/feed/"
+                href="https://www.linkedin.com/in/priyanshi-lathiya-b1713a246/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -44,9 +44,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/brij_r_24"
+                href="https://www.instagram.com/_piyu_1833/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
